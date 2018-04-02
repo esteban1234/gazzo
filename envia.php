@@ -22,7 +22,8 @@ $mail->From = $correo;
 $mail->FromName = $nombre;
 
 //To address and name
-$mail->addAddress("info@serviciosinmobiliariosgazzo.com");
+// $mail->addAddress("info@serviciosinmobiliariosgazzo.com");
+$mail->addAddress("ballina.santiago@gmail.com");
 
 
 $mail->isHTML(true);
@@ -40,7 +41,6 @@ $mail->Body = "
                 <div style='color:#747474; padding:20px 10px; text-align: justify'>$comentario <div><br/>
                 </body>
                 </html>";
-// $mail->AltBody = "This is the plain text version of the email content";
 
 if(!$mail->send())
 {
@@ -49,7 +49,6 @@ if(!$mail->send())
             <button type="button" class="close" data-dismiss="alert">&times;</button>
                 <strong>Error</strong> al enviar los datos.
                 </div>';
-	// $html = 2;
 
 }
 else

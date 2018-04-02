@@ -49,6 +49,10 @@
             <a class="selector" data-scroll href="#CONTACTO" aria-pressed="true">CONTACTO</a>
           </ul>
         </nav>
+        
+         <div class="openclose">
+          <i class="fa fa-bars open" aria-hidden="true"></i>
+        </div>
 
         <figure class="logo pull-right">
           <img src="img/gazzo.png" alt="GAZZO" class="img-responsive">
@@ -78,41 +82,40 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <img src="img/nosotros.jpg"
-            class="img-responsive">
+            <img src="img/nosotros.jpg" class="img-responsive img-siig">
           </div>
           <div class="col-md-6">
-            <h1>SERVICIOS INMOBILIARIOS INTEGRALES GAZZO</h1>
+            <h1 class="tit-siig">SERVICIOS INMOBILIARIOS INTEGRALES GAZZO</h1>
             <!-- <h3>A subtitle</h3> -->
-            <p>Somos una empresa inmobiliaria que tenemos la firme convicción de crear relaciones de valor a largo plazo para nuestros clientes y asociados. <br><br>
+            <p class="subtit-siig">Somos una empresa inmobiliaria que tenemos la firme convicción de crear relaciones de valor a largo plazo para nuestros clientes y asociados. <br><br>
 
             Estamos comprometidos en ofrecer un trato de calidad, honesto y transparente en los servicios que ofrecemos, siempre comprometidos en buscar el mejor acuerdo para todos nuestros clientes. En GAZZO Inmobiliaria buscamos ser tu primera opción para apoyarte en la promoción para la venta y renta de tus propiedades, contáctanos y conoce la nueva forma de hacer negocios inmobiliarios. Estamos seguros que podemos servirte como te mereces, siempre enfocados a encontrar el mejor acuerdo para ti. </p>
           </div>
-        </div> <br><br><br>
+        </div> <br><br class="delete-br"><br class="delete-br">
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-sm-6 col-md-3">
             <div class="iconos">
               <i class="fas fa-home fa-5x"></i>
             </div>
-            <h3 class="text-center">Inversión Segura</h3>
+            <h3 class="text-center tit-igng">Inversión Segura</h3>
           </div>
-          <div class="col-md-3">
+          <div class="col-sm-6 col-md-3">
             <div class="iconos">
               <i class="fas fa-book fa-5x"></i>
             </div>
-            <h3 class="text-center">Guía para COMPRAR tu casa</h3>
+            <h3 class="text-center tit-igng">Guía para COMPRAR tu casa</h3>
           </div>
-          <div class="col-md-3">
+          <div class="col-sm-6 col-md-3">
             <div class="iconos">
               <i class="far fa-handshake fa-5x"></i>
             </div>
-            <h3 class="text-center">Negociación directa, Total Transparencia</h3>
+            <h3 class="text-center tit-igng">Negociación directa, Total Transparencia</h3>
           </div>
-          <div class="col-md-3">
+          <div class="col-sm-6 col-md-3">
             <div class="iconos">
               <i class="fas fa-book fa-5x"></i>
             </div>
-            <h3 class="text-center">Guía para VENDER tu casa</h3>
+            <h3 class="text-center tit-igng">Guía para VENDER tu casa</h3>
           </div>
         </div>
 
@@ -126,12 +129,11 @@
 
   <div class="section" style="padding: 5% 0%;">
       <div class="container">
-        <div class="row elimi-hr">
+        <div class="row ">
           <h1 class="tit">Bienes inmuebles, tales como :</h1>
-      <hr> <br><br>
+          <hr class="elimi-hr"> <br><br>
           <div class="col-sm-6 col-md-3">
             <div class="imagen">
-              
             </div>
             <h2 class="text-center tit-cetb">CASAS</h2>
             
@@ -157,7 +159,7 @@
             <h2 class="text-center tit-cetb">BODEGAS</h2>
             
           </div>
-        </div> <br><br>
+        </div> <br class="delete-br"><br class="delete-br">
          <div class="row brdr">
           <div class="col-sm-4 col-md-4">
             <h2 class="text-center tit-pifilmdrs" style="color: #000;">Protege tu dinero</h2>
@@ -183,7 +185,7 @@
 <section class="seccion3" id="CONTACTO" style="padding: 5% 0%;">
 
             <h1 class="tit">CONTACTO</h1>
-      <hr> <br><br>
+      <hr class="elimi-hr"> <br><br class="delete-br">
 
   <div class="mapa">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3820.4471914757423!2d-93.17907048575672!3d16.75441262516231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ecd97d977e5d03%3A0xf949657d7faf26d0!2sAgua+592%2C+La+Gloria%2C+29054+La+Gloria%2C+Chis.!5e0!3m2!1ses-419!2smx!4v1522266202016" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -197,7 +199,7 @@
 
                 <div class="card-header p-0">
                     <div class="bg-warning text-white text-center" style="padding: 2%;">
-                        <h3>Formulario de Contacto</h3>
+                        <h3 class="tit-fc">Formulario de Contacto</h3>
                         <p class="m-0">Si tienes alguna duda o sugerencia, ponte en contacto con nosotros y con mucho gusto te asesoraremos.</p>
                     </div>
                 </div>
@@ -206,33 +208,35 @@
                         <label>Nombre Completo</label>
                         <div class="input-group">
                             <div class="input-group-addon bg-light"><i class="fa fa-user text-warning"></i></div>
-                            <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="">
+                            <input type="text" class="form-control" id="txtNOMBRE" placeholder="">
                         </div>
                     </div>
                     <div class="form-group">
                         <label>Correo</label>
                         <div class="input-group mb-2 mb-sm-0">
                             <div class="input-group-addon bg-light"><i class="fa fa-envelope text-warning"></i></div>
-                            <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="">
+                            <input type="text" class="form-control" id="txtCORREO" placeholder="">
                         </div>
                     </div>
                     <div class="form-group">
                         <label>Teléfono</label>
                         <div class="input-group mb-2 mb-sm-0">
                             <div class="input-group-addon bg-light"><i class="fa fa-phone prefix text-warning"></i></div>
-                            <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="">
+                            <input type="text" class="form-control" id="txtTELEFONO" placeholder="">
                         </div>
                     </div>
                     <div class="form-group">
                         <label>Comentario</label>
                         <div class="input-group mb-2 mb-sm-0">
                             <div class="input-group-addon bg-light"><i class="far fa-edit text-warning"></i></div>
-                            <textarea class="form-control"></textarea>
+                            <textarea id="txtCOMENTARIO" class="form-control"></textarea>
                         </div>
                     </div>
 
+                    <div id="_AJAX_PRE_" ></div>
+
                     <div class="text-center">
-                        <button class="btn btn-warning btn-block rounded-0 py-2">ENVIAR</button>
+                        <button class="btn btn-warning btn-block rounded-0 py-2" onclick="sendCORREO()">ENVIAR</button>
                     </div>
 
                 </div>
@@ -242,24 +246,24 @@
         <div class="col-lg-7">
 
             <div class="row text-center">
-                <div class="col-md-6">
+                <div class="col-sm-6 col-md-6">
                     <i class="fas fa-map-marker-alt fa-4x"></i> <br><br>
                     <p>Av. Agua #592 Col. La Gloria,  <br>Tuxtla Gutierrez, Chiapas. C.P. 29038</p>
                     
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-sm-6 col-md-6">
                     <i class="fas fa-phone-volume fa-4x"></i> <br><br>
                     <p> PENDIENTE</p>
                 </div>
             </div> <br><br>
 
             <div class="row text-center">
-                <div class="col-md-6">
+                <div class="col-sm-6 col-md-6">
                     <i class="far fa-envelope fa-4x"></i> <br><br>
                     <p> info@serviciosinmobiliariosgazzo.com</p>
                 </div>
-                <div class="col-md-6">
+                <div class="col-sm-6 col-md-6">
                     <i class="far fa-clock fa-4x"></i> <br><br>
                     <p> Lunes a Viernes de 9 am a 6 pm</p>
                 </div>

@@ -1,0 +1,599 @@
+@media screen and (max-width: 480px){
+/*********************INICIO***********************/
+	.banner, .fondo{
+		height: 100%;
+	}
+
+	nav{
+		position: fixed;
+		height: 100%;
+		top: 0px;
+		right: 0px;
+		z-index: 2;
+		width: 70%;
+		background:#D4AD7A;
+		display: none;
+	}
+
+	nav ul .selector{
+		display: block;
+		color: #000 !important;
+		text-align: center;
+		border-bottom: .5px solid rgba(0,0,0,0.2);
+	}
+
+	.logo{
+		width: 40%;
+	}
+
+	.openclose{
+		display: block;
+		background:#D4AD7A;
+		color: #fff;
+		padding: 10px;
+		position: fixed;
+		cursor: pointer;
+		top: 20px;
+		left: 20px;
+		z-index: 3;
+	}
+
+	.openclose i{
+		font-size: 22px;
+	}
+
+	.textobanner{
+		height: 100%;
+		width: 100%;
+	}
+
+	.uno{
+		font-size: 25px;
+		padding: 0px;
+	}
+
+	.dos{
+		font-size: 22px;
+		padding: 0px;
+	}
+
+
+/*****************END INICIO***********************/
+
+
+/*********************SECCION1***********************/
+
+	.delete-br{
+		display: none;
+	}
+
+	.tit-siig{
+		text-align: center;
+		font-size: 22px;
+	}
+
+	.subtit-siig{
+		text-align: justify;
+		font-size: 16px;
+	}
+
+	.iconos i{
+		font-size: 40px;
+	}
+
+	.tit-igng{
+		margin-top: 10px;
+		font-size: 20px;
+	}
+
+	.tit{
+		font-size: 22px;
+		padding: 0px 10px;
+		font-weight: bold;
+	}
+
+	.elimi-hr{
+		display: none;
+	}
+
+	.imagen, .imagen2, .imagen3, .imagen4{
+		border-radius: 20px;
+	}
+
+	.tit-cetb{
+		margin-top: 10px;
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	.tit-pifilmdrs{
+		font-size: 22px;
+	}
+
+	.txt-pifilmdrs{
+		text-align: justify;
+	}
+
+	.tit-fc{
+		font-weight: bold;
+		font-size: 20px;
+	}
+
+	.m-0{
+		text-align: justify;
+		padding: 0px 10px;
+	}
+
+	.card-body{
+		width: 85%;
+		margin: auto;
+	}
+
+	footer{
+		height: 100%;
+	}
+
+	footer p{
+		margin-bottom: 10px;
+		font-size: 18px;
+		width: 95%;
+	}
+/*****************END SECCION1***********************/
+
+}
+
+@media screen and (max-width: 599px) and (min-width: 481px) {
+/*********************INICIO***********************/
+	.banner, .fondo{
+		height: 100%;
+	}
+
+	nav{
+		position: fixed;
+		height: 100%;
+		top: 0px;
+		right: 0px;
+		z-index: 2;
+		width: 70%;
+		background:#D4AD7A;
+		display: none;
+	}
+
+	nav ul .selector{
+		display: block;
+		color: #000 !important;
+		text-align: center;
+		border-bottom: .5px solid rgba(0,0,0,0.2);
+	}
+
+	.logo{
+		width: 30%;
+	}
+
+	.openclose{
+		display: block;
+		background:#D4AD7A;
+		color: #fff;
+		padding: 10px;
+		position: fixed;
+		cursor: pointer;
+		top: 30px;
+		left: 60px;
+		z-index: 3;
+	}
+
+	.openclose i{
+		font-size: 22px;
+	}
+
+	.textobanner{
+		height: 100%;
+		width: 100%;
+	}
+
+	.img-siig{
+		margin: auto;
+		border-radius: 20px;
+	}
+
+	.uno{
+		font-size: 25px;
+		padding: 0px;
+	}
+
+	.dos{
+		font-size: 22px;
+		padding: 0px;
+	}
+
+
+/*****************END INICIO***********************/
+
+
+/*********************SECCION1***********************/
+
+	.delete-br{
+		display: none;
+	}
+
+	.tit-siig{
+		text-align: center;
+		font-size: 22px;
+	}
+
+	.subtit-siig{
+		text-align: justify;
+		font-size: 16px;
+	}
+
+	.iconos i{
+		font-size: 40px;
+	}
+
+	.tit-igng{
+		margin-top: 10px;
+		font-size: 20px;
+	}
+
+	.tit{
+		font-size: 22px;
+		padding: 0px 10px;
+		font-weight: bold;
+	}
+
+	.elimi-hr{
+		display: none;
+	}
+
+	.imagen, .imagen2, .imagen3, .imagen4{
+		border-radius: 20px;
+	}
+
+	.tit-cetb{
+		margin-top: 10px;
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	.tit-pifilmdrs{
+		font-size: 22px;
+	}
+
+	.txt-pifilmdrs{
+		text-align: justify;
+	}
+
+	.tit-fc{
+		font-weight: bold;
+		font-size: 20px;
+	}
+
+	.m-0{
+		text-align: justify;
+		padding: 0px 10px;
+	}
+
+	.card-body{
+		width: 65%;
+		margin: auto;
+	}
+
+	footer{
+		height: 100%;
+	}
+
+	footer p{
+		margin-bottom: 10px;
+		font-size: 18px;
+		width: 95%;
+	}
+/*****************END SECCION1***********************/
+}
+
+@media screen and (max-width: 799px) and (min-width: 600px) {
+/*********************INICIO***********************/
+	.banner, .fondo{
+		height: 100%;
+	}
+
+	nav{
+		position: fixed;
+		height: 100%;
+		top: 0px;
+		right: 0px;
+		z-index: 2;
+		width: 70%;
+		background:#D4AD7A;
+		display: none;
+	}
+
+	nav ul .selector{
+		display: block;
+		color: #000 !important;
+		text-align: center;
+		border-bottom: .5px solid rgba(0,0,0,0.2);
+	}
+
+	.logo{
+		width: 20%;
+	}
+
+	.openclose{
+		display: block;
+		background:#D4AD7A;
+		color: #fff;
+		padding: 10px;
+		position: fixed;
+		cursor: pointer;
+		top: 40px;
+		left: 80px;
+		z-index: 3;
+	}
+
+	.openclose i{
+		font-size: 22px;
+	}
+
+	.textobanner{
+		height: 100%;
+		width: 100%;
+	}
+
+	.img-siig{
+		margin: auto;
+		border-radius: 20px;
+	}
+
+	.uno{
+		font-size: 25px;
+		padding: 0px;
+	}
+
+	.dos{
+		font-size: 22px;
+		padding: 0px;
+	}
+
+
+/*****************END INICIO***********************/
+
+
+/*********************SECCION1***********************/
+
+	.delete-br{
+		display: none;
+	}
+
+	.tit-siig{
+		text-align: center;
+		font-size: 22px;
+	}
+
+	.subtit-siig{
+		text-align: justify;
+		font-size: 16px;
+	}
+
+	.iconos i{
+		font-size: 40px;
+	}
+
+	.tit-igng{
+		margin-top: 10px;
+		font-size: 20px;
+	}
+
+	.tit{
+		font-size: 22px;
+		padding: 0px 10px;
+		font-weight: bold;
+	}
+
+	.elimi-hr{
+		display: none;
+	}
+
+	.imagen, .imagen2, .imagen3, .imagen4{
+		border-radius: 20px;
+	}
+
+	.tit-cetb{
+		margin-top: 10px;
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	.tit-pifilmdrs{
+		font-size: 22px;
+	}
+
+	.txt-pifilmdrs{
+		text-align: justify;
+	}
+
+	.tit-fc{
+		font-weight: bold;
+		font-size: 20px;
+	}
+
+	.m-0{
+		padding: 0px 10px;
+	}
+
+	.card-body{
+		width: 65%;
+		margin: auto;
+	}
+
+	footer{
+		height: 100%;
+	}
+
+	footer p{
+		margin-bottom: 10px;
+		font-size: 18px;
+		width: 95%;
+	}
+/*****************END SECCION1***********************/
+}
+
+@media screen and (max-width: 1023px) and (min-width: 800px) {
+	/*********************INICIO***********************/
+	.banner, .fondo{
+		height: 100%;
+	}
+
+	nav{
+		position: fixed;
+		height: 100%;
+		top: 0px;
+		right: 0px;
+		z-index: 2;
+		width: 70%;
+		background:#D4AD7A;
+		display: none;
+	}
+
+	nav ul .selector{
+		display: block;
+		color: #000 !important;
+		text-align: center;
+		border-bottom: .5px solid rgba(0,0,0,0.2);
+	}
+
+	.logo{
+		width: 20%;
+	}
+
+	.openclose{
+		display: block;
+		background:#D4AD7A;
+		color: #fff;
+		padding: 10px;
+		position: fixed;
+		cursor: pointer;
+		top: 40px;
+		left: 80px;
+		z-index: 3;
+	}
+
+	.openclose i{
+		font-size: 22px;
+	}
+
+	.textobanner{
+		height: 100%;
+		width: 100%;
+	}
+
+	.img-siig{
+		margin: auto;
+		border-radius: 20px;
+	}
+
+	.uno{
+		font-size: 25px;
+		padding: 0px;
+	}
+
+	.dos{
+		font-size: 22px;
+		padding: 0px;
+	}
+
+
+/*****************END INICIO***********************/
+
+
+/*********************SECCION1***********************/
+
+	.delete-br{
+		display: none;
+	}
+
+	.tit-siig{
+		text-align: center;
+		font-size: 22px;
+	}
+
+	.subtit-siig{
+		text-align: justify;
+		font-size: 16px;
+	}
+
+	.iconos i{
+		font-size: 40px;
+	}
+
+	.tit-igng{
+		margin-top: 10px;
+		font-size: 20px;
+	}
+
+	.tit{
+		font-size: 22px;
+		padding: 0px 10px;
+		font-weight: bold;
+	}
+
+	.elimi-hr{
+		display: none;
+	}
+
+	.imagen, .imagen2, .imagen3, .imagen4{
+		border-radius: 20px;
+	}
+
+	.tit-cetb{
+		margin-top: 10px;
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	.tit-pifilmdrs{
+		font-size: 22px;
+	}
+
+	.txt-pifilmdrs{
+		text-align: justify;
+	}
+
+	.tit-fc{
+		font-weight: bold;
+		font-size: 20px;
+	}
+
+	.m-0{
+		padding: 0px 10px;
+	}
+
+	.card-body{
+		width: 60%;
+		margin: auto;
+	}
+
+	footer{
+		height: 100%;
+	}
+
+	footer p{
+		margin-bottom: 10px;
+		font-size: 18px;
+		width: 95%;
+	}
+/*****************END SECCION1***********************/
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {      /* mac*/
+	.banner, .fondo{
+		height: 100%;
+	}
+	
+	.card-body{
+		width: 60%;
+		margin: auto;
+	}
+}
+@media screen and (max-width: 1366px) and (min-width: 1024px) { }
+
+@media screen and (min-width: 1367px) { }

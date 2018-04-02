@@ -169,3 +169,7 @@ footer p{
   right:20px;
   z-index: 100;
 }
+
+.openclose{
+  display: none;
+}
