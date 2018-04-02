@@ -289,5 +289,6 @@
     <script src="js/arriba.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/menu.js"></script>
+    <script src="js/sendCORREO.js"></script>
   </body>
 </html>
